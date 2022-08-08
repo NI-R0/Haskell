@@ -1,4 +1,5 @@
--- LISTEN
+-- My (first) program with an implementation for the data structure "List"
+
 myLength :: Num p => [a] -> p
 myLength [] = 0
 myLength (hd : tl) = 1 + myLength tl

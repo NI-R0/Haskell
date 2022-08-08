@@ -1,6 +1,8 @@
 import Control.Arrow (ArrowChoice (right))
 import Distribution.Parsec (zeroPos)
 
+-- A program which can sort a given list with one of two versions of the sorting algorithm quicksort
+
 quicksort :: Ord t => [t] -> [t]
 quicksort [] = []
 quicksort (x : xs) = quicksort left ++ [x] ++ quicksort right

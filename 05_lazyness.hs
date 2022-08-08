@@ -1,3 +1,5 @@
+-- A program to demonstrate how lazy argument evaluation works in Haskell
+
 first :: Int -> Int -> Int
 first x y = x
 
